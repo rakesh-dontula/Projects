@@ -240,6 +240,9 @@ namespace AngularJSApplicationService
             {
 
                 string importFileName = ConfigurationManager.AppSettings["ProductImportData"];
+                string path = System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+                importFileName = Path.Combine(path, importFileName);
 
                 System.IO.StreamReader csv_file = File.OpenText(importFileName);
 
