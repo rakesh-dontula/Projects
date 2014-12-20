@@ -38,8 +38,8 @@ define(['application-configuration', 'productsService', 'alertsService', 'dataGr
                     return dataGridService.setSortIndicator(column, $scope.defaultSort);
                 };
 
-                $scope.ProductCode = "";
-                $scope.Description = "";
+                $scope.ProductCode = {code:""};
+                $scope.Description = {desc:""};
 
                 $scope.PageSize = 15;
                 $scope.SortDirection = "ASC";
@@ -80,8 +80,8 @@ define(['application-configuration', 'productsService', 'alertsService', 'dataGr
             }
 
             $scope.resetSearchFields = function () {
-                $scope.ProductCode = "";
-                $scope.Description = "";
+                $scope.ProductCode = {code:""};
+                $scope.Description = { desc: "" };
                 $scope.getProducts();
             }
 
@@ -89,8 +89,8 @@ define(['application-configuration', 'productsService', 'alertsService', 'dataGr
 
                 var productInquiry = new Object();
 
-                productInquiry.ProductCode = $scope.ProductCode;
-                productInquiry.Description = $scope.Description;
+                productInquiry.ProductCode = $scope.ProductCode.code;
+                productInquiry.Description = $scope.Description.desc;
                 productInquiry.CurrentPageNumber = $scope.CurrentPageNumber;
                 productInquiry.SortExpression = $scope.SortExpression;
                 productInquiry.SortDirection = $scope.SortDirection;

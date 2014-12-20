@@ -41,8 +41,8 @@ define(['application-configuration', 'customersService', 'alertsService', 'dataG
                     return dataGridService.setSortIndicator(column, $scope.defaultSort);
                 };
 
-                $scope.CustomerCode = "";
-                $scope.CompanyName = "";
+                $scope.CustomerCode = {code:""};
+                $scope.CompanyName = {name:""};
 
                 $scope.PageSize = 15;
                 $scope.SortDirection = "ASC";
@@ -87,8 +87,8 @@ define(['application-configuration', 'customersService', 'alertsService', 'dataG
             }
 
             $scope.resetSearchFields = function () {
-                $scope.CustomerCode = "";
-                $scope.CompanyName = "";
+                $scope.CustomerCode = {code:""};
+                $scope.CompanyName = {name:""};
                 $scope.getCustomers();
             }
 
@@ -96,8 +96,8 @@ define(['application-configuration', 'customersService', 'alertsService', 'dataG
 
                 var customerInquiry = new Object();
 
-                customerInquiry.CustomerCode = $scope.CustomerCode;
-                customerInquiry.CompanyName = $scope.CompanyName;
+                customerInquiry.CustomerCode = $scope.CustomerCode.code;
+                customerInquiry.CompanyName = $scope.CompanyName.name;
                 customerInquiry.CurrentPageNumber = $scope.CurrentPageNumber;
                 customerInquiry.SortExpression = $scope.SortExpression;
                 customerInquiry.SortDirection = $scope.SortDirection;
