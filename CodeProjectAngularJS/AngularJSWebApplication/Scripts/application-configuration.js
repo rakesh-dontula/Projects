@@ -20,7 +20,7 @@ define(['angularAMD', 'angular-route', 'ui-bootstrap', 'angular-sanitize', 'bloc
     app.config(function (blockUIConfigProvider) {
 
         // Change the default overlay message
-        blockUIConfigProvider.message("executing...");
+        blockUIConfigProvider.message("Please wait...");
         // Change the default delay to 100ms before the blocking is visible
         blockUIConfigProvider.delay(1);
         // Disable automatically blocking of the user interface
@@ -137,7 +137,7 @@ define(['angularAMD', 'angular-route', 'ui-bootstrap', 'angular-sanitize', 'bloc
         }
 
         $scope.initializeApplication = function (successFunction, errorFunction) {
-            blockUI.start();           
+            blockUI.start();
             $scope.AjaxGet("/api/main/InitializeApplication", successFunction, errorFunction);
             blockUI.stop();
         };

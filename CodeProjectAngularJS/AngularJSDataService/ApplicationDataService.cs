@@ -19,11 +19,11 @@ namespace AngularJSDataService
 
             ApplicationMenu menuItem;
            
-            menuItem = CreateMenuItem("Home", "#Main/Home", "Main", false, 1);          
-            dbConnection.ApplicationMenuItems.Add(menuItem);
+            //menuItem = CreateMenuItem("Home", "#Main/Home", "Main", false, 1);          
+            //dbConnection.ApplicationMenuItems.Add(menuItem);
 
-            menuItem = CreateMenuItem("About", "#Main/About", "Main", false, 2);
-            dbConnection.ApplicationMenuItems.Add(menuItem);
+            //menuItem = CreateMenuItem("About", "#Main/About", "Main", false, 2);
+            //dbConnection.ApplicationMenuItems.Add(menuItem);
 
             menuItem = CreateMenuItem("Register", "#Accounts/Register", "Main", false, 3);
             dbConnection.ApplicationMenuItems.Add(menuItem);
@@ -46,11 +46,11 @@ namespace AngularJSDataService
             menuItem = CreateMenuItem("Logout", "#Accounts/Logout", "Main", true, 5);
             dbConnection.ApplicationMenuItems.Add(menuItem);
 
-            menuItem = CreateMenuItem("Home", "#Main/Home", "Main", true, 6);
-            dbConnection.ApplicationMenuItems.Add(menuItem);
+            //menuItem = CreateMenuItem("Home", "#Main/Home", "Main", true, 6);
+            //dbConnection.ApplicationMenuItems.Add(menuItem);
 
-            menuItem = CreateMenuItem("About", "#Main/About", "Main", true, 7);
-            dbConnection.ApplicationMenuItems.Add(menuItem);
+            //menuItem = CreateMenuItem("About", "#Main/About", "Main", true, 7);
+            //dbConnection.ApplicationMenuItems.Add(menuItem);
 
             menuItem = CreateMenuItem("Customer Inquiry", "#Customers/CustomerInquiry", "Customers", true, 1);
             dbConnection.ApplicationMenuItems.Add(menuItem);
