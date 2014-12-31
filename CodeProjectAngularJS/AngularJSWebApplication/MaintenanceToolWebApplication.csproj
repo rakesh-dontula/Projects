@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AngularJSWebApplication</RootNamespace>
-    <AssemblyName>AngularJSWebApplication</AssemblyName>
+    <RootNamespace>MaintenanceToolWebApplication</RootNamespace>
+    <AssemblyName>MaintenanceToolWebApplication</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -41,10 +41,20 @@
     <Reference Include="Antlr3.Runtime">
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="RouteDebugger">
+      <HintPath>..\packages\routedebugger.2.1.4.0\lib\net40\RouteDebugger.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.DynamicData" />
@@ -513,21 +523,21 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AngularJSApplicationService\AngularJSApplicationService.csproj">
+    <ProjectReference Include="..\AngularJSApplicationService\MaintenanceToolApplicationService.csproj">
       <Project>{78c6ba34-df0a-4f7c-a831-2d20ac52cc3c}</Project>
-      <Name>AngularJSApplicationService</Name>
+      <Name>MaintenanceToolApplicationService</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AngularJSDataModels\AngularJSDataModels.csproj">
+    <ProjectReference Include="..\AngularJSDataModels\MaintenanceToolDataModels.csproj">
       <Project>{c300bbe1-c9e4-4c13-83f5-8ab4d6b34456}</Project>
-      <Name>AngularJSDataModels</Name>
+      <Name>MaintenanceToolDataModels</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AngularJSDataServiceInterface\AngularJSDataServiceInterface.csproj">
+    <ProjectReference Include="..\AngularJSDataServiceInterface\MaintenanceToolDataServiceInterface.csproj">
       <Project>{c3653520-50c3-41c4-a715-81b550350625}</Project>
-      <Name>AngularJSDataServiceInterface</Name>
+      <Name>MaintenanceToolDataServiceInterface</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AngularJSDataService\AngularJSDataService.csproj">
+    <ProjectReference Include="..\AngularJSDataService\MaintenanceToolDataService.csproj">
       <Project>{d5da8625-86ea-4690-9e5b-d7e3c21a963a}</Project>
-      <Name>AngularJSDataService</Name>
+      <Name>MaintenanceToolDataService</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

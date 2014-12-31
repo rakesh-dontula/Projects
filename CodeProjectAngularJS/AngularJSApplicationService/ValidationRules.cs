@@ -4,9 +4,9 @@ using System.Collections;
 using System.Linq;
 using System.Text;
 
-using AngularJSDataModels;
+using MaintenanceToolDataModels;
 
-namespace AngularJSApplicationService
+namespace MaintenanceToolApplicationService
 {
     /// <summary>
     /// Validation Rules

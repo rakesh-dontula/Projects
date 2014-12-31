@@ -1,19 +1,19 @@
-namespace AngularJSDataService.Migrations
+namespace MaintenanceToolDataService.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<AngularJSDataService.AngularJSDatabase>
+    internal sealed class Configuration : DbMigrationsConfiguration<MaintenanceToolDataService.AngularJSDatabase>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "AngularJSDataService.AngularJSDatabase";
+            ContextKey = "MaintenanceToolDataService.AngularJSDatabase";
         }
 
-        protected override void Seed(AngularJSDataService.AngularJSDatabase context)
+        protected override void Seed(MaintenanceToolDataService.AngularJSDatabase context)
         {
             string myString = "Mark";
             //  This method will be called after migrating to the latest version.

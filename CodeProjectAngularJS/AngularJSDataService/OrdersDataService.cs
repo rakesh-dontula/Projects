@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Linq.Dynamic;
 
-using AngularJSDataServiceInterface;
-using AngularJSDataModels;
+using MaintenanceToolDataServiceInterface;
+using MaintenanceToolDataModels;
 using System.Linq.Dynamic;
 
-namespace AngularJSDataService
+namespace MaintenanceToolDataService
 {
     public class OrdersDataService : EntityFrameworkDataService, IOrdersDataService
     {
@@ -221,7 +221,7 @@ namespace AngularJSDataService
             var listOfOrders = orders.Skip((paging.CurrentPageNumber - 1) * paging.PageSize).Take(paging.PageSize);
 
             paging.TotalRows = numberOfRows;
-            paging.TotalPages = AngularJSUtilities.Utilities.CalculateTotalPages(numberOfRows, paging.PageSize);
+            paging.TotalPages = MaintenanceToolUtilities.Utilities.CalculateTotalPages(numberOfRows, paging.PageSize);
 
             foreach (var order in listOfOrders)
             {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 
-namespace AngularJSDataModels
+namespace MaintenanceToolDataModels
 {
     public class TransactionalInformation
     {

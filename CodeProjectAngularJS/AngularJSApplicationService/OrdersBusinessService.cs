@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using System.Configuration;
 using System.IO;
 
-using AngularJSDataServiceInterface;
-using AngularJSDataModels;
-using AngularJSUtilities;
+using MaintenanceToolDataServiceInterface;
+using MaintenanceToolDataModels;
+using MaintenanceToolUtilities;
 
-namespace AngularJSApplicationService
+namespace MaintenanceToolApplicationService
 {
     public class OrdersBusinessService
     {

@@ -8,10 +8,10 @@ using System.Net.Http;
 using System.Web.Http.Filters;
 using System.Web.Http.Controllers;
 using System.Net;
-using AngularJSDataModels;
+using MaintenanceToolDataModels;
 
 
-namespace AngularJSWebApplication.Filters
+namespace MaintenanceToolWebApplication.Filters
 {
     /// <summary>
     /// Authenicate User

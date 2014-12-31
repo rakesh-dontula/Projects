@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using AngularJSUtilities;
+using MaintenanceToolUtilities;
 
-namespace AngularJSApplicationService
+namespace MaintenanceToolApplicationService
 {
   
     public class Validations

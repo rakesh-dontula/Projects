@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AngularJSDataServiceInterface;
+using MaintenanceToolDataServiceInterface;
 
 using System.Data.Entity;
-using AngularJSDataService.Migrations;
+using MaintenanceToolDataService.Migrations;
  
-namespace AngularJSDataService
+namespace MaintenanceToolDataService
 {
   
 

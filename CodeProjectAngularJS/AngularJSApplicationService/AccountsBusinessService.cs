@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using AngularJSDataServiceInterface;
-using AngularJSDataModels;
-using AngularJSUtilities;
+using MaintenanceToolDataServiceInterface;
+using MaintenanceToolDataModels;
+using MaintenanceToolUtilities;
 
-namespace AngularJSApplicationService
+namespace MaintenanceToolApplicationService
 {
     public class AccountsBusinessService
     {

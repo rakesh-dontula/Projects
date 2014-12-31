@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Linq.Dynamic;
 
-using AngularJSDataServiceInterface;
-using AngularJSDataModels;
+using MaintenanceToolDataServiceInterface;
+using MaintenanceToolDataModels;
 using System.Linq.Dynamic;
 
-namespace AngularJSDataService
+namespace MaintenanceToolDataService
 {
     public class ProductsDataService : EntityFrameworkDataService, IProductsDataService
     {
@@ -120,7 +120,7 @@ namespace AngularJSDataService
             var productList = products.Skip((paging.CurrentPageNumber - 1) * paging.PageSize).Take(paging.PageSize);
 
             paging.TotalRows = numberOfRows;
-            paging.TotalPages = AngularJSUtilities.Utilities.CalculateTotalPages(numberOfRows, paging.PageSize);
+            paging.TotalPages = MaintenanceToolUtilities.Utilities.CalculateTotalPages(numberOfRows, paging.PageSize);
 
             foreach (var product in productList)
             {

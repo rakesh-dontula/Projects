@@ -7,8 +7,8 @@
     <ProjectGuid>{78C6BA34-DF0A-4F7C-A831-2D20AC52CC3C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AngularJSApplicationService</RootNamespace>
-    <AssemblyName>AngularJSApplicationService</AssemblyName>
+    <RootNamespace>MaintenanceToolApplicationService</RootNamespace>
+    <AssemblyName>MaintenanceToolApplicationService</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -55,17 +55,17 @@
     <Compile Include="Validations.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AngularJSDataModels\AngularJSDataModels.csproj">
+    <ProjectReference Include="..\AngularJSDataModels\MaintenanceToolDataModels.csproj">
       <Project>{c300bbe1-c9e4-4c13-83f5-8ab4d6b34456}</Project>
-      <Name>AngularJSDataModels</Name>
+      <Name>MaintenanceToolDataModels</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AngularJSDataServiceInterface\AngularJSDataServiceInterface.csproj">
+    <ProjectReference Include="..\AngularJSDataServiceInterface\MaintenanceToolDataServiceInterface.csproj">
       <Project>{c3653520-50c3-41c4-a715-81b550350625}</Project>
-      <Name>AngularJSDataServiceInterface</Name>
+      <Name>MaintenanceToolDataServiceInterface</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AngularJSUtilities\AngularJSUtilities.csproj">
+    <ProjectReference Include="..\AngularJSUtilities\MaintenanceToolUtilities.csproj">
       <Project>{bdf49c04-0bc2-4d32-938c-412aed4eba1f}</Project>
-      <Name>AngularJSUtilities</Name>
+      <Name>MaintenanceToolUtilities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

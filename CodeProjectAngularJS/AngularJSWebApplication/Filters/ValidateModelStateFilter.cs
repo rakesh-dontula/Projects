@@ -8,10 +8,10 @@ using System.Net.Http;
 using System.Web.Http.Filters;
 using System.Web.Http.Controllers;
 using System.Net;
-using AngularJSDataModels;
-using AngularJSWebApplication.Helpers;
+using MaintenanceToolDataModels;
+using MaintenanceToolWebApplication.Helpers;
 
-namespace AngularJSWebApplication.Filters
+namespace MaintenanceToolWebApplication.Filters
 {    
 
     public class ValidateModelStateAttribute : System.Web.Http.Filters.ActionFilterAttribute

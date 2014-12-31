@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
 
-namespace AngularJSDataModels
+namespace MaintenanceToolDataModels
 {
     public class User
     {

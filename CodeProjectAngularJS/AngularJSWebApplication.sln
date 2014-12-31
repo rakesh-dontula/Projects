@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Web
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSWebApplication", "AngularJSWebApplication\AngularJSWebApplication.csproj", "{353C9A42-72C6-4A74-A60A-1306040CB13F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintenanceToolWebApplication", "AngularJSWebApplication\MaintenanceToolWebApplication.csproj", "{353C9A42-72C6-4A74-A60A-1306040CB13F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSApplicationService", "AngularJSApplicationService\AngularJSApplicationService.csproj", "{78C6BA34-DF0A-4F7C-A831-2D20AC52CC3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintenanceToolApplicationService", "AngularJSApplicationService\MaintenanceToolApplicationService.csproj", "{78C6BA34-DF0A-4F7C-A831-2D20AC52CC3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSDataModels", "AngularJSDataModels\AngularJSDataModels.csproj", "{C300BBE1-C9E4-4C13-83F5-8AB4D6B34456}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintenanceToolDataModels", "AngularJSDataModels\MaintenanceToolDataModels.csproj", "{C300BBE1-C9E4-4C13-83F5-8AB4D6B34456}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSDataServiceInterface", "AngularJSDataServiceInterface\AngularJSDataServiceInterface.csproj", "{C3653520-50C3-41C4-A715-81B550350625}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintenanceToolDataServiceInterface", "AngularJSDataServiceInterface\MaintenanceToolDataServiceInterface.csproj", "{C3653520-50C3-41C4-A715-81B550350625}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSDataService", "AngularJSDataService\AngularJSDataService.csproj", "{D5DA8625-86EA-4690-9E5B-D7E3C21A963A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintenanceToolDataService", "AngularJSDataService\MaintenanceToolDataService.csproj", "{D5DA8625-86EA-4690-9E5B-D7E3C21A963A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSUtilities", "AngularJSUtilities\AngularJSUtilities.csproj", "{BDF49C04-0BC2-4D32-938C-412AED4EBA1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintenanceToolUtilities", "AngularJSUtilities\MaintenanceToolUtilities.csproj", "{BDF49C04-0BC2-4D32-938C-412AED4EBA1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

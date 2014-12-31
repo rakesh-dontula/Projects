@@ -7,7 +7,7 @@ using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AngularJSDataModels
+namespace MaintenanceToolDataModels
 {
     public class Order
     {

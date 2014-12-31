@@ -6,15 +6,15 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Security;
 
-using AngularJSWebApplication.Filters;
-using AngularJSWebApplication.WebApiModels;
-using AngularJSDataModels;
-using AngularJSApplicationService;
-using AngularJSDataServiceInterface;
-using AngularJSDataService;
+using MaintenanceToolWebApplication.Filters;
+using MaintenanceToolWebApplication.WebApiModels;
+using MaintenanceToolDataModels;
+using MaintenanceToolApplicationService;
+using MaintenanceToolDataServiceInterface;
+using MaintenanceToolDataService;
 
 
-namespace AngularJSWebApplication.WebApiControllers
+namespace MaintenanceToolWebApplication.WebApiControllers
 {
     [RoutePrefix("api/main")]
     public class MainApiController : ApiController

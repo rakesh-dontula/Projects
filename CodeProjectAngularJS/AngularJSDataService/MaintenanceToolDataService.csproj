@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C3653520-50C3-41C4-A715-81B550350625}</ProjectGuid>
+    <ProjectGuid>{D5DA8625-86EA-4690-9E5B-D7E3C21A963A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AngularJSDataServiceInterface</RootNamespace>
-    <AssemblyName>AngularJSDataServiceInterface</AssemblyName>
+    <RootNamespace>MaintenanceToolDataService</RootNamespace>
+    <AssemblyName>MaintenanceToolDataService</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -31,7 +31,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,13 +48,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces.cs" />
+    <Compile Include="AccountsDataService.cs" />
+    <Compile Include="ApplicationDataService.cs" />
+    <Compile Include="CustomersDataService.cs" />
+    <Compile Include="DynamicLibrary.cs" />
+    <Compile Include="AngularJSDatabase.cs" />
+    <Compile Include="EntityFrameworkDataService.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="OrdersDataService.cs" />
+    <Compile Include="ProductsDataService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AngularJSDataModels\AngularJSDataModels.csproj">
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AngularJSDataModels\MaintenanceToolDataModels.csproj">
       <Project>{c300bbe1-c9e4-4c13-83f5-8ab4d6b34456}</Project>
-      <Name>AngularJSDataModels</Name>
+      <Name>MaintenanceToolDataModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AngularJSDataServiceInterface\MaintenanceToolDataServiceInterface.csproj">
+      <Project>{c3653520-50c3-41c4-a715-81b550350625}</Project>
+      <Name>MaintenanceToolDataServiceInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AngularJSUtilities\MaintenanceToolUtilities.csproj">
+      <Project>{bdf49c04-0bc2-4d32-938c-412aed4eba1f}</Project>
+      <Name>MaintenanceToolUtilities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

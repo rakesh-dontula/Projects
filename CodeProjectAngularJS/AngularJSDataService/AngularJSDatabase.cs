@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
-using AngularJSDataModels;
+using MaintenanceToolDataModels;
 
-namespace AngularJSDataService
+namespace MaintenanceToolDataService
 {
     public class AngularJSDatabase : DbContext
     {

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using AngularJSDataServiceInterface;
-using AngularJSDataModels;
+using MaintenanceToolDataServiceInterface;
+using MaintenanceToolDataModels;
 using System.Linq.Dynamic;
 
-namespace AngularJSDataService
+namespace MaintenanceToolDataService
 {
     
 

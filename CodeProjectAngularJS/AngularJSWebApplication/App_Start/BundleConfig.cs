@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace AngularJSWebApplication
+namespace MaintenanceToolWebApplication
 {
     public class BundleConfig
     {
