@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldsSmallestBookstore.Client", "WorldsSmallestBookstore.Client\WorldsSmallestBookstore.Client.csproj", "{72B0C716-9DB0-4171-AD3A-505665F3FD9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldsSmallestBookstore.Client.UnitTests", "Test Projects\WorldsSmallestBookstore.Client.UnitTests\WorldsSmallestBookstore.Client.UnitTests.csproj", "{AD2A189B-0731-40B2-B1C2-8F7887CAC95F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Projects", "Test Projects", "{9D10FDCD-A65A-4E46-9C8B-A5B54422A9E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldsSmallestBookstore.Server", "WorldsSmallestBookstore.Server\WorldsSmallestBookstore.Server.csproj", "{CAC4AE78-5B06-4647-872F-72A00393E576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldsSmallestBookstore.Server.UnitTests", "Test Projects\WorldsSmallestBookstore.Server.UnitTests\WorldsSmallestBookstore.Server.UnitTests.csproj", "{8FB2AF4A-9350-48F0-96E6-926C385E7B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldsSmallestBookstore.IntegrationTests", "Test Projects\WorldsSmallestBookstore.IntegrationTests\WorldsSmallestBookstore.IntegrationTests.csproj", "{9E98D0AC-B143-418F-B9A5-CDEC11C1613A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldsSmallestBookstore.Client.FunctionalTests", "Test Projects\WorldsSmallestBookstore.Client.FunctionalTests\WorldsSmallestBookstore.Client.FunctionalTests.csproj", "{9BE552E9-7B82-416A-A3CB-5D5A6737CF55}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs2013.agilethought.com/tfs/atclient2012
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WorldsSmallestBookstore.Client\\WorldsSmallestBookstore.Client.csproj
+		SccProjectName1 = WorldsSmallestBookstore.Client
+		SccLocalPath1 = WorldsSmallestBookstore.Client
+		SccProjectUniqueName2 = Test\u0020Projects\\WorldsSmallestBookstore.Tests\\WorldsSmallestBookstore.Client.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName2 = WorldsSmallestBookstore.sln
+		SccProjectName2 = Test\u0020Projects/WorldsSmallestBookstore.Tests
+		SccLocalPath2 = Test\u0020Projects\\WorldsSmallestBookstore.Tests
+		SccProjectUniqueName3 = WorldsSmallestBookstore.Server\\WorldsSmallestBookstore.Server.csproj
+		SccProjectName3 = WorldsSmallestBookstore.Server
+		SccLocalPath3 = WorldsSmallestBookstore.Server
+		SccProjectUniqueName4 = Test\u0020Projects\\WorldsSmallestBookstore.Server.UnitTests\\WorldsSmallestBookstore.Server.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName4 = WorldsSmallestBookstore.sln
+		SccProjectName4 = Test\u0020Projects/WorldsSmallestBookstore.Server.UnitTests
+		SccLocalPath4 = Test\u0020Projects\\WorldsSmallestBookstore.Server.UnitTests
+		SccProjectUniqueName5 = WorldsSmallestBookstore.IntegrationTests\\WorldsSmallestBookstore.IntegrationTests.csproj
+		SccProjectTopLevelParentUniqueName5 = WorldsSmallestBookstore.sln
+		SccProjectName5 = WorldsSmallestBookstore.IntegrationTests
+		SccLocalPath5 = WorldsSmallestBookstore.IntegrationTests
+		SccProjectUniqueName6 = WorldsSmallestBookstore.Client.FunctionalTests\\WorldsSmallestBookstore.Client.FunctionalTests.csproj
+		SccProjectTopLevelParentUniqueName6 = WorldsSmallestBookstore.sln
+		SccProjectName6 = WorldsSmallestBookstore.Client.FunctionalTests
+		SccLocalPath6 = WorldsSmallestBookstore.Client.FunctionalTests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B0C716-9DB0-4171-AD3A-505665F3FD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B0C716-9DB0-4171-AD3A-505665F3FD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B0C716-9DB0-4171-AD3A-505665F3FD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B0C716-9DB0-4171-AD3A-505665F3FD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD2A189B-0731-40B2-B1C2-8F7887CAC95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2A189B-0731-40B2-B1C2-8F7887CAC95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2A189B-0731-40B2-B1C2-8F7887CAC95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2A189B-0731-40B2-B1C2-8F7887CAC95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC4AE78-5B06-4647-872F-72A00393E576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC4AE78-5B06-4647-872F-72A00393E576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC4AE78-5B06-4647-872F-72A00393E576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC4AE78-5B06-4647-872F-72A00393E576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB2AF4A-9350-48F0-96E6-926C385E7B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB2AF4A-9350-48F0-96E6-926C385E7B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB2AF4A-9350-48F0-96E6-926C385E7B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB2AF4A-9350-48F0-96E6-926C385E7B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E98D0AC-B143-418F-B9A5-CDEC11C1613A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E98D0AC-B143-418F-B9A5-CDEC11C1613A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E98D0AC-B143-418F-B9A5-CDEC11C1613A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E98D0AC-B143-418F-B9A5-CDEC11C1613A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE552E9-7B82-416A-A3CB-5D5A6737CF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE552E9-7B82-416A-A3CB-5D5A6737CF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE552E9-7B82-416A-A3CB-5D5A6737CF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE552E9-7B82-416A-A3CB-5D5A6737CF55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD2A189B-0731-40B2-B1C2-8F7887CAC95F} = {9D10FDCD-A65A-4E46-9C8B-A5B54422A9E2}
+		{8FB2AF4A-9350-48F0-96E6-926C385E7B21} = {9D10FDCD-A65A-4E46-9C8B-A5B54422A9E2}
+		{9E98D0AC-B143-418F-B9A5-CDEC11C1613A} = {9D10FDCD-A65A-4E46-9C8B-A5B54422A9E2}
+		{9BE552E9-7B82-416A-A3CB-5D5A6737CF55} = {9D10FDCD-A65A-4E46-9C8B-A5B54422A9E2}
+	EndGlobalSection
+EndGlobal

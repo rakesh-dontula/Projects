@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                Welcome to the World's Smallest Online bookstore where we pride ourselves
+                in limiting your selection to only highly relevent books.
+               
+            </p>
+        </div>
+    </section>
+}
+<h3>We suggest the following:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>Truely Inspirational </h5>
+       <img src="Content/Images/WorldsGreatest Salesman.jpg" alt="Sample Photo" />
+    </li>
+
+    <li class="two">
+        <h5>Historical yet timely</h5>
+        <img src="Content/Images/PecanMan.jpg" alt="Sample Photo" />
+    </li>
+
+    <li class="three">
+        <h5>Commercially sucessful but still a good read</h5>
+        <img src="Content/Images/FlightBehavior.jpg" alt="Sample Photo" />
+    </li>
+</ol>

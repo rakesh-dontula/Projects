@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="WorldsSmallestBookstore.Server.Controllers.Tests.CustomerControllerTests.Customer_GetTest" /><Add Test="WorldsSmallestBookstore.Client.Tests.ServiceClientTests.Books_GetTest" /></Playlist>
